@@ -1,6 +1,6 @@
 {
   "name": "filepathderivatives",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Node utility that provides additional convenient path methods.",
   "main": "index.js",
   "scripts": {
