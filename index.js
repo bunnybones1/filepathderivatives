@@ -19,7 +19,12 @@ function difference(path1, path2) {
 	}
 };
 
+function hasExtension(filepath, extension) {
+	return (filepath.lastIndexOf(extension) === filepath.length - extension.length);
+};
+
 module.exports = {
 	replaceExtension: replaceExtension,
+	hasExtension: hasExtension,
 	difference: difference
 };
